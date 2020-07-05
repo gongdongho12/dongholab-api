@@ -34,7 +34,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.3")
-    implementation("mysql:mysql-connector-java:8.0.20")
+    implementation("mysql:mysql-connector-java")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")

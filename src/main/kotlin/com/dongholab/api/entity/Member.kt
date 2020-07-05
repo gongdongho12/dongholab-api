@@ -14,7 +14,6 @@ data class Member(
         @GeneratedValue
         var id: Long? = null,
 
-        @Id
         var email: String,
         var password: String,
 
